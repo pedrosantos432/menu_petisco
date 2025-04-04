@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #251103;
+    overflow-x: auto; /* Adiciona a barra de rolagem horizontal quando necessário */
 }
 
 .fundo {
@@ -71,32 +72,36 @@ footer {
 }
 
 .entradas {
-    display: flex; /* Flexbox para alinhar as imagens ao lado */
-    justify-content: center; /* Centraliza as imagens na página */
+    display: flex;
+    justify-content: center;
 }
+
 img {
-    margin-right: 10px; /* Espaço entre as imagens */
+    margin-right: 10px;
 }
+
 .entradas2 {
-    display: flex; /* Flexbox para alinhar as imagens ao lado */
-    justify-content: center; /* Centraliza as imagens na página */
+    display: flex;
+    justify-content: center;
 }
+
 img {
-    width: 250px; /* Define uma largura fixa */
-    height: 450px; /* Define uma altura fixa */
-    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
-    margin-right: 10px; /* Espaço entre as imagens */
+    width: 250px;
+    height: 450px;
+    object-fit: cover;
+    margin-right: 10px;
     margin-top: 10px;
 }
 
 .entradas3 {
-    display: flex; /* Flexbox para alinhar as imagens ao lado */
-    justify-content: center; /* Centraliza as imagens na página */
+    display: flex;
+    justify-content: center;
 }
+
 img {
-    width: 250px; /* Define uma largura fixa */
-    height: 450px; /* Define uma altura fixa */
-    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
-    margin-right: 10px; /* Espaço entre as imagens */
+    width: 250px;
+    height: 450px;
+    object-fit: cover;
+    margin-right: 10px;
     margin-top: 10px;
 }
